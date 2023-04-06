@@ -1,0 +1,75 @@
+# ga:goal6Completions  Add to cart, ga:goal5ConversionRate   Product Clicks
+
+
+"[{
+  ""expression"": ""ga:sessions""
+},{
+  ""expression"": ""ga:goal6Completions"",
+  ""alias"": ""Add to Cart"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal6Completions/ga:sessions"",
+  ""alias"": ""CVR"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:goal5ConversionRate"",
+  ""alias"": ""Product Clicks"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal5ConversionRate/ga:sessions"",
+  ""alias"": ""CVR1"",
+  ""formattingType"": ""PERCENT""  
+},{
+  ""expression"": ""ga:transactions""
+}, {
+  ""expression"": ""ga:transactions/ga:sessions"",
+  ""alias"": ""CVR2"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:transactionRevenue"",
+  ""alias"": ""Revenue"",
+  ""formattingType"": ""FLOAT""
+}, {
+  ""expression"": ""ga:transactionRevenue/ga:sessions"",
+  ""alias"": ""CVR3"",
+  ""formattingType"": ""FLOAT""  
+}]"
+
+
+# max 10 metrics
+
+"[{
+  ""expression"": ""ga:sessions""
+},{
+  ""expression"": ""ga:goal6Completions"",
+  ""alias"": ""Add to Cart"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal6ConversionRate"",
+  ""alias"": ""Add to Cart (CVR)"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:goal5Completions"",
+  ""alias"": ""Product Clicks"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal5ConversionRate"",
+  ""alias"": ""Product Clicks (CVR)"",
+  ""formattingType"": ""PERCENT""  
+},{
+  ""expression"": ""ga:transactions""
+},{
+  ""expression"": ""ga:transactions/ga:sessions"",
+  ""alias"": ""CVR2"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:transactionRevenue"",
+  ""alias"": ""Revenue"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:revenuePerTransaction"",
+  ""alias"": ""Avg. Order Value"",
+  ""formattingType"": ""FLOAT""
+}]"
+
+
