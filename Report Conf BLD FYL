@@ -1,0 +1,26 @@
+"[{
+  ""expression"": ""ga:sessions""
+},{
+  ""expression"": ""ga:goal4Completions"",
+  ""alias"": ""Add to Cart"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal4ConversionRate"",
+  ""alias"": ""Add to Cart (CVR)""
+},{
+  ""expression"": ""ga:goal2Completions"",
+  ""alias"": ""Product View"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:goal2ConversionRate"",
+  ""alias"": ""Product View (CVR)"" 
+},{
+  ""expression"": ""ga:transactions""
+},{
+  ""expression"": ""ga:transactions/ga:sessions"",
+  ""alias"": ""Transactions (CVR)"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:transactionRevenue"",
+  ""alias"": ""Revenue""
+}]"
