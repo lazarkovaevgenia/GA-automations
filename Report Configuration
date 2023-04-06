@@ -17,3 +17,32 @@
 }]"
 
 
+# sessions, Add to Cart, transactions, revenue
+
+"[{
+  ""expression"": ""ga:sessions""
+},{
+  ""expression"": ""ga:productAddsToCart"",
+  ""alias"": ""Add to Cart"",
+  ""formattingType"": ""FLOAT""
+},{
+  ""expression"": ""ga:productAddsToCart/ga:sessions"",
+  ""alias"": ""CVR"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:transactions""
+}, {
+  ""expression"": ""ga:transactions/ga:sessions"",
+  ""alias"": ""CVR1"",
+  ""formattingType"": ""PERCENT""
+},{
+  ""expression"": ""ga:transactionRevenue"",
+  ""alias"": ""Revenue"",
+  ""formattingType"": ""FLOAT""
+}, {
+  ""expression"": ""ga:transactionRevenue/ga:sessions"",
+  ""alias"": ""CVR2"",
+  ""formattingType"": ""PERCENT""  
+}]"
+
+
